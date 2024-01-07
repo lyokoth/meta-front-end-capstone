@@ -1,57 +1,63 @@
-import React, { useState } from 'react'
+import React from 'react'
+ import { useState } from 'react';
 import './Nav.css'
 import { images } from '../../constants';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import Hamburger from 'hamburger-react';
+// implement dark mode instead of hamburger menu or implement both later
 
 
 const Nav = () => {
-  const [toggle, setToggle ] = useState(false);
+ const [toggle, setToggle ] = useState(false);
 
-  <div className="nav-logo">
+  
+
+  return (
+    <div className="nav">
+
+<div className="nav-logo">
     <img src={images.logo} alt="logo" />
     </div>
 
 
-  return (
-    <div className="nav">
         <ul className="nav-links">
             <Link className="link" to={"/"}>Home</Link>
-            <Link className="link" to={"/about"}>About</Link>
-            <Link className="link" to={"/menu"}>Menu</Link>
+            <Link className="link" smooth to={"/about"}>About</Link>
+            <Link className="link" smooth to={"/menu"}>Menu</Link>
             <Link className="link" to={"/reservations"}>Reservations</Link>
-         
-            <Link className="link" to={"/order"}>Order Online</Link>
-            <Link className="link" to={"/login"}>Login</Link>
+            <Link className="link" to={"/order-online"}>Order Online</Link>
+
             
-            <li><a href="#login">Login</a></li>
+           
         </ul>
 
-<div className="app__navbar-menu">
+{/* mobile navigation menu  */}
+
+<div className="navbar-menu">
 <Hamburger
     onClick={() => { setToggle(true) }}
-    className="app__navbar-hamburger"
+    className="nav-hamburger"
 />
 {
  toggle &&  (
  <div>
     <Hamburger
         onClick={() => {
-            setToggle(false)
+            setToggle(true)
         }} 
-        className="app__navbar-cancel"
+        className="nav-cancel"
     />
 
     <Link className="link" to={"/"} onClick={() => { setToggle(false)}}>Home</Link>
-    <Link className="link" to={'/Reservations'} onClick={() => { setToggle(false)}}>Reservation</Link>
-    <Link className="link" to={"/OrderOnline"} onClick={() => { setToggle(false)}}>OrderOnline</Link>
-    <HashLink className="link" smooth to="/#Menu" onClick={() => { setToggle(false)}}>Menu</HashLink>
-    <HashLink className="link" smooth to="/#About" onClick={() => { setToggle(false)}}>About</HashLink>     
+    <Link className="link" to={'/reservations'} onClick={() => { setToggle(false)}}>Reservations</Link>
+    <Link className="link" to={"/OrderOnline"} onClick={() => { setToggle(false)}}>Order Online</Link>
+    <HashLink className="link" smooth to="/#menu" onClick={() => { setToggle(false)}}>Menu</HashLink>
+    <HashLink className="link" smooth to="/#about" onClick={() => { setToggle(false)}}>About</HashLink>     
 
  </div>)
 }
-</div>
+</div> 
     </div>
   )
 } 
