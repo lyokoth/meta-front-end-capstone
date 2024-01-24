@@ -2,6 +2,7 @@
   "name": "meta-front-end-capstone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lyokoth.github.io/meta-front-end-capstone/", 
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -20,12 +21,15 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "web-vitals": "^2.1.4"
+
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+     
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +51,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
+
   }
 }
