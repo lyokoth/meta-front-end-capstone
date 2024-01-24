@@ -1,13 +1,13 @@
 const seededRandom = function(seed) {
-    let x = Math.sin(seed) * 10000;
+    const x = Math.sin(seed) * 10000;
     return x - Math.floor(x);
 }
 
 
 const fetchAPI = function(date) {
 
-    let result = {morning: [], afternoon: [], evening: []};
-    let random = seededRandom(date.getDate());
+    const result = {morning: [], afternoon: [], evening: []};
+    const random = seededRandom(date.getDate());
 
     // Morning
     for (let i = 9; i < 12; i++) {
@@ -42,7 +42,7 @@ const fetchAPI = function(date) {
 
     return result;
 }
-   const submitAPI = function(formData) {
+   const submitAPI = function(_formData) {
     return true;
    }
 export { fetchAPI, submitAPI };
