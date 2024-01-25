@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/meta-front-end-capstone/static/css/main.331a1dd3.css",
+    "main.js": "/meta-front-end-capstone/static/js/main.8be6173f.js",
+    "static/media/Mario and Adrian A.jpg": "/meta-front-end-capstone/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
+    "static/media/Mario and Adrian b.jpg": "/meta-front-end-capstone/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
+    "static/media/jane.jpg": "/meta-front-end-capstone/static/media/jane.cba4a4cf2bcc58b80ddb.jpg",
+    "static/media/jill.jpg": "/meta-front-end-capstone/static/media/jill.505bc23653749831a6ba.jpg",
+    "static/media/bruchetta.svg": "/meta-front-end-capstone/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/restaurant chef B.jpg": "/meta-front-end-capstone/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
+    "static/media/pexels-lina-kivaka-12238177.jpg": "/meta-front-end-capstone/static/media/pexels-lina-kivaka-12238177.8d2d5f5e5cc94553a988.jpg",
+    "static/media/greek salad.jpg": "/meta-front-end-capstone/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/meta-front-end-capstone/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/pexels-adrienn-1537635.jpg": "/meta-front-end-capstone/static/media/pexels-adrienn-1537635.206473c49f3de79fb2df.jpg",
+    "static/media/matchatiramisu.jpg": "/meta-front-end-capstone/static/media/matchatiramisu.bcc38a12fee53eafec82.jpg",
+    "static/media/Logo.svg": "/meta-front-end-capstone/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "index.html": "/meta-front-end-capstone/index.html",
+    "main.331a1dd3.css.map": "/meta-front-end-capstone/static/css/main.331a1dd3.css.map",
+    "main.8be6173f.js.map": "/meta-front-end-capstone/static/js/main.8be6173f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.331a1dd3.css",
+    "static/js/main.8be6173f.js"
+  ]
+}
