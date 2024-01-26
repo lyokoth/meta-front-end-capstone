@@ -11,7 +11,7 @@ import { headerData, reservationData, orderOnline } from './constants';
  import DataContext from './DataContext/DataContext';
 import  Reservations  from './Components/Reservations/Reservations';
 import  OrderOnline   from './Components/OrderOnline/OrderOnline';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Router, Route, useLocation } from 'react-router-dom';
 import ComfirmedBooking from './Components/Reservations/ConfirmedBooking/ConfirmedBooking';
 import Testimonials from './Components/Main/Testimonials/Testimonials';
 // import Login from './Components/Login/Login';
@@ -37,8 +37,8 @@ function App() {
   }
 
   return (
-    <>
     
+    <Router>
     <Nav />
     <DataContext.Provider value={data}>
       {path === "/meta-front-end-capstone" && <Header />}
@@ -50,15 +50,13 @@ function App() {
         <Route path="/meta-front-end-capstone/confirmed-booking" element={<ComfirmedBooking />} />
       </Routes> 
     </DataContext.Provider>
-
     <Specials />
     <Testimonials />
     <About />
-
 <Footer />
-    </>
- 
+  
+    </Router>
   );
-};
+}
 
 export default App;
