@@ -31,6 +31,7 @@
     color: #495e57;
     font-size: 48px;
     font-weight: 700;
+    -webkit-user-select: none;
     user-select: none;
     align-items: center;
     
@@ -235,6 +236,7 @@
     color: #495e57;
     font-size: 48px;
     font-weight: 700;
+    -webkit-user-select: none;
     user-select: none;
   }
 

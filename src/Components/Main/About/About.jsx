@@ -6,17 +6,15 @@ const aboutData = {
     title: 'Little Lemon',
     location: 'Chicago',
     description: 'We are a family owned restaurant founded by brothers Mario and Adrian in 1998. For over 20 years, we have been proudly serving lunch and dinner in the Chicago area. We pride ourselves on our fresh ingredients and our friendly staff. We are open 7 days a week for lunch and dinner.',
-    image1: images.MarioandAdrianA,
-    image2: images.restaurantChef,
+    image1: images.MarioandAdrianB,
+    image2: images.MarioandAdrianA,
     
 
 };
 
 const About = () => {
     return (
-        <div
-            className="app_about-section"
-        >
+        <div className="app_about-section" id = "about">
             
             
                 <div className="app_about-description-box">
@@ -26,7 +24,7 @@ const About = () => {
                     <br />
                     <p className="app__about-description">
                         {aboutData.description}
-                            <br />
+                
                     </p>
                 </div>
            

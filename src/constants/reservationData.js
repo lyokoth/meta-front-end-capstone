@@ -1,4 +1,4 @@
-import MarioandAdrianA from '../icons_assets/Mario and Adrian A.jpg';
+import MarioandAdrianA from '../icons_assets/MarioandAdrianA.jpg';
 
   const reservationData = {
         title: "Reservation",

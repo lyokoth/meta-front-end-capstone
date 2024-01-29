@@ -117,7 +117,7 @@ const BookingForm = ({ submitForm }) => {
   };
 
     return (
-    <div className="reserve-container">
+    <div className="reserve-container" id="booking-form">
       <h2 className="title">Reserve your Table</h2>
       <form
         className="row justify-content align-items-center"

@@ -25,14 +25,13 @@ const FooterItems = (props) => {
 };
 const Footer = () => {
 return (<footer className="app__footer-section">
-  <div className="app__about-image-box img-box-1"
-      style= 
-      {
-          {
-              backgroundImage: `url(${images.restaurant})`
-          }
-      }
-  />
+  <div className="app__about-image-box img-box-1">
+    <img src= {images.footerLogo} alt="logo" className="app__about-image-box"> 
+    
+    </img>
+
+    
+  </div>
       <FooterItems title="Navigation" sectionList={footerNavi} />
       <FooterItems title="Contact" sectionList={footerContact} />
       <FooterItems title="Hours" sectionList={footerHours} />

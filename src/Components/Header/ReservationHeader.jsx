@@ -3,6 +3,7 @@ import './ReservationHeader.css';
 import BlockRevealAnimation from 'react-block-reveal-animation';
 import { images, reservationData } from '../../constants';
 
+
 const ReservationHeader = () => {
     return (
         <header className="reservation-header">
@@ -21,7 +22,9 @@ const ReservationHeader = () => {
             </p>
             </BlockRevealAnimation>
             <button>
+             
             {reservationData.btnname}
+         
             </button>
         </div>
         <BlockRevealAnimation color='#333333'>

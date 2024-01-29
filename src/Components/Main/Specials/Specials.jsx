@@ -34,7 +34,7 @@ const foodItems = [
 
 const FoodCard = (props) => {
   return (
-    <div className="specials-container">
+    <div id= "menu" className="specials-container">
       <div className="app_special_image">
         
       <img alt="food" className="specials-image" src={props.image} />

@@ -7,13 +7,14 @@
     width: 100%;
 
     flex-wrap: wrap;
+    background-color:  #EDEFEE; 
 }
 
 .app__about-image-holder {
     display: flex;
     position: relative;
     /* border: 5px solid rgb(0, 166, 255); */
-    width: fit-content;
+    width: --moz-fit-content;
 }
 
 .img-box-2 {
@@ -60,7 +61,7 @@
 }
 .app__about-title {
     font-size: 64px;
-    color: #F4CE14;
+    color: #FECE14;
     /* border: 1px solid rebeccapurple; */
     display: inline-block;
 
@@ -68,7 +69,7 @@
 .app__about-subtitle {
     margin-top: 7px;
     font-size: 40px;
-    color: #495E57;
+    color: black;
     display: inline-block;
     /* border: 1px solid rebeccapurple; */
 }
@@ -97,7 +98,7 @@
         left: 180px;
     }
     .app__about-image-holder{
-        margin-top: 50px;
+        margin-top: 15px;
         justify-content: center;
     }
 }

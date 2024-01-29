@@ -3,6 +3,7 @@ import BookingForm from './BookingForm';
 import { fetchAPI, submitAPI  } from '../../utils/API'
 
 import {useNavigate } from 'react-router-dom';
+import ReservationHeader from '../Header/ReservationHeader';
 
 
 const updateTimeSlots = (availableTimeSlots, date) => {
@@ -50,7 +51,7 @@ const Reservations = () => {
 
   return (
     <>
-    
+    <ReservationHeader />
         <BookingForm 
             submitForm={submitForm}
             availableTimeSlots={availableTimeSlots} 
@@ -58,6 +59,7 @@ const Reservations = () => {
             
             dispatchTimeslotsOnDateChange={dispatchTimeslotsOnDateChange}
         />
+
     </>
   )
 }

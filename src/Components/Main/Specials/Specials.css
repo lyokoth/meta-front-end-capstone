@@ -52,7 +52,7 @@
     width: 264px;
     height: 440px;
     border-radius: 16px;
-    background-color: #EDEFEE;
+    background-color: #495E57;
     border: 1px solid #e4e4e4;
 }
 .specials-name-price {
@@ -143,6 +143,7 @@
     .app__specials-food {
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(1, 1fr);
+        background-color: #495E57;
     }
 
     .app__specials-title {
