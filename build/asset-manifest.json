@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/meta-front-end-capstone/static/css/main.cc286365.css",
+    "main.js": "/meta-front-end-capstone/static/js/main.341258c4.js",
+    "static/js/787.d00acb03.chunk.js": "/meta-front-end-capstone/static/js/787.d00acb03.chunk.js",
+    "static/media/MarioandAdrianA.jpg": "/meta-front-end-capstone/static/media/MarioandAdrianA.7f44c6d6e341a27d14b3.jpg",
+    "static/media/MarioandAdrianb.jpg": "/meta-front-end-capstone/static/media/MarioandAdrianb.6ba0e06bfa9c1ea75109.jpg",
+    "static/media/bruchetta.svg": "/meta-front-end-capstone/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/greekSalad.jpg": "/meta-front-end-capstone/static/media/greekSalad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/meta-front-end-capstone/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/matchatiramisu.jpg": "/meta-front-end-capstone/static/media/matchatiramisu.bcc38a12fee53eafec82.jpg",
+    "static/media/Logo Footer. - Copy.png": "/meta-front-end-capstone/static/media/Logo Footer.2c859235d6c57bb54176 - Copy.2c859235d6c57bb54176.png",
+    "static/media/under-construction-2891888_1280.webp": "/meta-front-end-capstone/static/media/under-construction-2891888_1280.400c89b12550893ff87c.webp",
+    "static/media/Logo.svg": "/meta-front-end-capstone/static/media/Logo.2c379c7ea7eb07402bfc7700915316de.svg",
+    "index.html": "/meta-front-end-capstone/index.html",
+    "main.cc286365.css.map": "/meta-front-end-capstone/static/css/main.cc286365.css.map",
+    "main.341258c4.js.map": "/meta-front-end-capstone/static/js/main.341258c4.js.map",
+    "787.d00acb03.chunk.js.map": "/meta-front-end-capstone/static/js/787.d00acb03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc286365.css",
+    "static/js/main.341258c4.js"
+  ]
+}
